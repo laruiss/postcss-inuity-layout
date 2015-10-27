@@ -1,0 +1,55 @@
+{
+  "name": "postcss-inuity-layout",
+  "version": "0.0.2",
+  "description": "An easy way to create inuitcss-like layout/grid system for PostCSS",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laruiss/postcss-inuity-layout.git"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "width",
+    "grid",
+    "layout",
+    "inuitcss"
+  ],
+  "author": {
+    "name": "Stanislas Ormières",
+    "email": "laruiss@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laruiss/postcss-inuity-layout/issues"
+  },
+  "homepage": "https://github.com/laruiss/postcss-inuity-layout#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "postcss": "^5.0.5",
+    "reduce-function-call": "^1.0.1"
+  },
+  "_from": "postcss-inuity-layout@*",
+  "_npmVersion": "2.14.4",
+  "_nodeVersion": "4.1.2",
+  "_npmUser": {
+    "name": "laruiss",
+    "email": "laruiss@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Stanislas Ormières",
+      "email": "laruiss@gmail.com"
+    }
+  ]
+}
