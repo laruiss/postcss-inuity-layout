@@ -1,6 +1,6 @@
 {
   "name": "postcss-inuity-layout",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An easy way to create inuitcss-like layout/grid system for PostCSS",
   "main": "src/index.js",
   "directories": {

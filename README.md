@@ -1,4 +1,4 @@
-# postcss-inuity-layout
+# postcss-inuity-layout [![Build Status](https://travis-ci.org/laruiss/postcss-inuity-layout.png?branch=master)](https://travis-ci.org/laruiss/postcss-inuity-layout)
 
 An easy way to create a [inuitcss]-like layout/grid system for [PostCSS]
 
@@ -7,8 +7,10 @@ An easy way to create a [inuitcss]-like layout/grid system for [PostCSS]
 
 ## Installation
 
-```js
-npm install postcss-inuity-layout
+Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
+
+```sh
+npm install postcss-inuity-layout --save
 ```
 
 ## Usage
@@ -191,3 +193,38 @@ Turns into:
     </div>
 </div>
 ```
+
+An easy way to create inuitcss-like layout/grid system for PostCSS
+
+## Tests
+
+```sh
+npm install
+npm test
+```
+```
+
+> postcss-inuity-layout@0.0.2 test /home/sormieres/dev/workspaces/node_projects/postcss-inuity-layout
+> mocha test/test.js
+  layout-wrapper
+    ✓ Should print a whole layout wrapper rule
+    ✓ Should print a whole layout item rule
+    ✓ Should print a rule with width with 5 digits after comma
+  3 passing (15ms)
+
+```
+
+## Dependencies
+
+- [postcss](https://github.com/postcss/postcss): Tool for transforming styles with JS plugins
+- [reduce-function-call](https://github.com/MoOx/reduce-function-call): Reduce function calls in a string, using a callback
+
+## Dev Dependencies
+
+- [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
+- [should](https://github.com/shouldjs/should.js): test framework agnostic BDD-style assertions
+
+
+## License
+
+MIT
