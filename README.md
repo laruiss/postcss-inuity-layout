@@ -18,12 +18,12 @@ npm install postcss-inuity-layout --save
 ```js
 var fs = require('fs');
 var postcss = require('postcss');
-var width = require('postcss-inuity-layout');
+var inuityLayout = require('postcss-inuity-layout');
 
 var css = fs.readFileSync('input.css', 'utf8');
 
 var output = postcss()
-  .use(width())
+  .use(inuityLayout())
   .process(css)
   .css;
 ```
@@ -193,8 +193,6 @@ Turns into:
     </div>
 </div>
 ```
-
-An easy way to create inuitcss-like layout/grid system for PostCSS
 
 ## Tests
 
