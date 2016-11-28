@@ -46,7 +46,7 @@ module.exports = postcss.plugin('postcss-width', function(opts) {
                 decl.parent.append({'prop': 'vertical-align', value: 'top'}).source = decl.source;
                 decl.parent.append({'prop': 'width', value: '100%'}).source = decl.source;
                 decl.remove();
-			}
+            }
         });
     };
 });
