@@ -1,6 +1,20 @@
 # postcss-inuity-layout [![Build Status](https://travis-ci.org/laruiss/postcss-inuity-layout.png?branch=master)](https://travis-ci.org/laruiss/postcss-inuity-layout)
 
+## What?
+
 An easy way to create a [inuitcss]-like layout/grid system for [PostCSS]
+
+## Why?
+
+- I love the inuitCSS framework idea
+
+- I love [PostCSS]
+
+- I don't want to have to install ruby, so I don't want to use SASS
+
+- The feature I use the most in InuitCSS is the layout (AKA grid) system
+
+So I wanted to make a PostCSS plugin that generates a complete layout system. That plugin is here!
 
 [PostCSS]: https://github.com/postcss/postcss
 [inuitcss]: https://github.com/inuitcss
